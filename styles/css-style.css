@@ -1,8 +1,12 @@
 body{
   background-color: black;
+  font-family: andale mono, monospace;
+  colour: green;
+  text-align: center;
 }
 
 h1{
+  font-family: andale mono, monospace;
   colour: green;
   text-align: center;
 }

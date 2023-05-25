@@ -1,0 +1,80 @@
+.background {
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Comic Sans MS, sans-serif;
+    color: black;
+    text-align: center;
+    background: black;
+    background-image: url('floral-pattern-background-849.jpg');
+}
+
+.box {
+    justify-content: center;
+    min-width: 300px;
+    height: 100%;
+    border: 15px solid antiquewhite;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: floralwhite;
+    position: center;
+    left: 50%;
+    top: 50%;
+    right: 50%;
+    transform-origin: 50% 50%;
+}
+
+
+.header {
+    color: maroon;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.subhead {
+    font-size: 25px;
+}
+
+.paragraphs {
+    font-size: 20px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: maroon;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+    .navbar a:hover {
+        background-color: #e4c8c6;
+        color: #520052;
+    }
+
+.footer {
+    padding: 20px;
+    text-align: left;
+    background: #dcbcc0;
+    color: #520052;
+}

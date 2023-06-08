@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('Images/floral-pattern-background-849-EDITED.jpg');
+    font-family: Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+    border: 15px solid #430443;
+}
+
+header {
+    background-color: #520052;
+    padding: 30px;
+    text-align: center;
+    color: #fffaf3;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Palatino Linotype', Tahoma;
+    background-image: url('Images/floral-pattern-background-849-EDITED-1.jpg');
+}
+
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: antiquewhite;
+    padding: 20px;
+    overflow: hidden;
+    color: #520052
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: left;
+    display: block;
+    font-size: 20px;
+}
+
+a:link {
+    color: #a700a7;
+}
+
+a:visited {
+    color: #520052;
+}
+
+a:hover {
+    color: #ec60ec;
+}
+
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: floralwhite;
+    padding: 20px;
+    text-align: left;
+}
+
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background: #dcbcc0;
+    color: #520052;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+}
+
+th {
+    background-color: rgb(235,235,235);
+}
